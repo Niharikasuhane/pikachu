@@ -1,0 +1,138 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BACKGROUND SPLIT */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(90deg, #f7c600 50%, #fde8c8 50%);
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO WITH UNDERLINE */
+.logo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo {
+    width: 120px;
+}
+
+.logo-line {
+    width: 80px;
+    height: 2px;
+    background: black;
+    margin-top: 5px;
+}
+
+/* MENU ICON */
+.menu {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* SIDE DOTS */
+.side-dots {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.side-dots .dot {
+    width: 10px;
+    height: 10px;
+    background: #cfcfcf;
+    border-radius: 50%;
+    display: block;
+    margin: 10px 0;
+}
+
+.side-dots .active {
+    background: #e5b300;
+}
+
+/* MAIN SECTION */
+.container {
+    display: flex;
+    height: 100%;
+    padding: 0 40px;
+}
+
+/* LEFT SECTION */
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    gap: 25px;
+}
+
+.left h4 {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.left h1 {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.left p {
+    width: 80%;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.count {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* BIG CIRCLE */
+.poke-circle {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #c69c00;
+    border-radius: 50%;
+    opacity: 0.4;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+
+/* RIGHT SECTION */
+.right {
+    width: 50%;
+    display: flex;
+    justify-content:;
+    align-items:center;
+}
+
+.character {
+    width: 400px;
+    filter: drop-shadow(0 10px 20px rgba(243, 8, 137, 0.3));
+}
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Niharikasuhane/pica.git
+git push -u origin main
